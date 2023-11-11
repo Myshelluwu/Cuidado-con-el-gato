@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191819;
+}
+
+.canvas-container {
+    position: relative;
+}
+
+#miCanvas {
+    background-image: url('./public/image/portada.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position:static;
+    top: 0;
+    left: 0;
+}
+
+.texto-overlay {
+    position: absolute;
+    top: 0%;
+    margin-top: -40%;
+    left: 42%;
+    transform: translate(-50%, -50%);
+    font-size: 800%;
+    font-family: Andrew Elegant;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texto-overlay2 {
+    position: absolute;
+    top: 0%;
+    margin-top: -8%;
+    padding-bottom: 5%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    font-weight: 200;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.boton{
+    color: white;
+    font-weight: 200;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.boton2{
+    color: black;
+    font-weight: bolder;
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.text-info{
+    display: flex;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 1%;
+    background-color: aliceblue;
+    padding: 2%;
+}
+
+p{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+h2{
+    font-family: Aerodynamic;
+    font-weight: bolder;
+    font-size: 250%;
+}
+
+.min{
+    font-size: 90%;
+}
+
+/*Página de contrato*/
+.texto-overlay3{
+    position: absolute;
+    margin-top: -18%;
+    left: 40%;
+    transform: translate(-50%, -70%);
+    font-size: 150%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.texto-overlay4{
+    position: absolute;
+    margin-top: -5%;
+    left: 40%;
+    transform: translate(-50%, -70%);
+    font-weight: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.texto-overlay5 {
+    position: absolute;
+    top: 0%;
+    margin-top: -45%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+    font-size: 500%;
+    font-family: Andrew Elegant;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main label{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 120%;
+}
+main input{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 120%;
+}
+.registro{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 150%;
+}
+header a{
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: Andrew Elegant;
+    src: url(./public/fonts/ANDREW\ ELEGANT\ Regular.ttf);
+}
+
+@font-face{
+    font-family: Aerodynamic;
+    src: url(./public/fonts/aero_ho.ttf);
+}
+
+
+.menu {
+    width: 100%;
+    height: 100%;
+    background-image: url('./public/image/portada.png');
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+    position: relative;
+}
+
+.menu a {
+    font-size: 200%;
+    font-family: Andrew Elegant;
+    color: white;
+    
+}
+
+@media (max-width: 800px) {
+    .menu a {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu a {
+        margin: 10px;
+    }
+}
+
+main h2{
+    font-family:"HM Sans Semi Bold", HMSansHebrew-SemiBold, "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "MS PGothic", sans-serif;;
+    font-weight: bolder;
+    font-size: 180%;
+    color: white;
+}
+main h3{
+    font-family:"HM Sans Semi Bold", HMSansHebrew-SemiBold, "Hiragino Kaku Gothic Pro", Osaka, メイリオ, Meiryo, "MS PGothic", sans-serif;;
+    font-weight: bolder;
+    font-size: 150%;
+    color: white;
+}
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px;
+  }
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
